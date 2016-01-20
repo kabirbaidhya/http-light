@@ -1,0 +1,26 @@
+{
+  "name": "http-light",
+  "description": "A very lightweight XHR wrapper for client-side javascript",
+  "authors": [
+    "Kabir Baidhya <kabeer182010@gmail.com>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "http",
+    "XHR",
+    "lightweight",
+    "promises"
+  ],
+  "homepage": "https://github.com/kabirbaidhya/http-light",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "lodash": "~4.0.0",
+    "jquery": "~2.2.0"
+  }
+}

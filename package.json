@@ -1,14 +1,11 @@
 {
-  "name": "lft-http",
+  "name": "http-light",
   "version": "0.0.1",
   "author": [
     "Kabir Baidhya <kabeer182010@gmail.com>"
   ],
-  "description": "A lightweight wrapper around jQuery's Ajax",
-  "dependencies": {
-    "lodash": "^3.10.1",
-    "sprintf-js": "^1.0.3"
-  },
+  "description": "A very lightweight XHR wrapper for client-side javascript",
+  "dependencies": {},
   "devDependencies": {
     "browserify": "latest",
     "gulp": "latest",
