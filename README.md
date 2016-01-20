@@ -1,2 +1,2 @@
 # Http
-A lightweight wrapper around jQuery's Ajax 
+A very lightweight XHR wrapper for client-side javascript 
