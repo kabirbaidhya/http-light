@@ -1,0 +1,19 @@
+{
+  "name": "lft-http",
+  "version": "0.0.1",
+  "author": [
+    "Kabir Baidhya <kabeer182010@gmail.com>"
+  ],
+  "description": "A lightweight wrapper around jQuery's Ajax",
+  "dependencies": {
+    "lodash": "^3.10.1",
+    "sprintf-js": "^1.0.3"
+  },
+  "devDependencies": {
+    "browserify": "latest",
+    "gulp": "latest",
+    "gulp-browserify": "latest",
+    "gulp-rename": "latest",
+    "gulp-uglify": "latest"
+  }
+}
