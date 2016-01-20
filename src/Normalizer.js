@@ -1,15 +1,3 @@
-// Dependencies
-// TODO: Let's not use loadash in this package, as its too heavy for us
-// Our whole source files (unminified) is < 5KB
-// but when bundled with jQuery & lodash it becomes 235KB
-// even minified version is 40KB
-// Have to implement these stuffs on our own in the future.
-var isNaN = require('lodash/lang/isNaN');
-var isArray = require('lodash/lang/isArray');
-var isObject = require('lodash/lang/isObject');
-var isNull = require('lodash/lang/isUndefined');
-var cloneDeep = require('lodash/lang/cloneDeep');
-var isUndefined = require('lodash/lang/isUndefined');
 
 /**
  * Normalizes the object/array specially before sending it in a HTTP payload

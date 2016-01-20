@@ -16,7 +16,6 @@ var DEST_FILENAME = 'http.js';
 gulp.task('browserify', function () {
     gulp.src(SOURCE_PATH)
         .pipe(browserify({
-            insertGlobals: true,
             debug: true
         }))
         .pipe(rename(DEST_FILENAME))
